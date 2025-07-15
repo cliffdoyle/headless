@@ -1,28 +1,220 @@
+/* Augment-inspired Admin Info Card */
 .adminBox {
-  background: var(--surface-color);
-  padding: 1.5rem;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
+  background: var(--card-gradient);
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
 }
+
+.adminBox:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+  border-color: var(--accent-color);
+}
+
+.adminBox::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-secondary);
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
 .title {
-  margin-top: 0;
+  margin: 0 0 1rem 0;
   color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: var(--font-family-serif);
 }
+
+.decorativeLine {
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-color), var(--accent-hover));
+  margin: 0 auto;
+  border-radius: 1px;
+}
+
+.profileSection {
+  margin-bottom: 2rem;
+}
+
+.avatarContainer {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
 .avatar {
   border-radius: 50%;
-  width: 96px;
-  height: 96px;
-  margin: 1rem auto;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
-  border: 3px solid var(--accent-color);
+  border: 4px solid white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+  position: relative;
+  z-index: 2;
 }
+
+.avatarBorder {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, var(--accent-color), #8b5cf6, #ec4899);
+  z-index: 1;
+  animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .name {
-  margin: 0 0 0.5rem;
-  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  font-family: var(--font-family-serif);
 }
+
+.role {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 1.5rem 0;
+}
+
 .bio {
   color: var(--secondary-color);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.bio p {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border-left: 3px solid rgba(59, 130, 246, 0.2);
+  transition: var(--transition);
+}
+
+.bio p:hover {
+  border-left-color: var(--accent-color);
+  transform: translateX(4px);
+}
+
+.socialLinks {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(59, 130, 246, 0.05);
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.socialItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  border-radius: var(--border-radius-sm);
+  transition: var(--transition);
+}
+
+.socialItem:last-child {
+  margin-bottom: 0;
+}
+
+.socialItem:hover {
+  background: rgba(59, 130, 246, 0.1);
+  transform: translateY(-1px);
+}
+
+.socialIcon {
+  font-size: 1.2rem;
+  filter: grayscale(0.3);
+  transition: var(--transition);
+}
+
+.socialItem:hover .socialIcon {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.socialText {
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+.footer {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.footerText {
+  font-style: italic;
+  color: var(--accent-color);
   font-size: 0.9rem;
-  line-height: 1.6;
+  margin: 0;
+  font-family: var(--font-family-serif);
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .adminBox {
+    padding: 1.5rem;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .avatarBorder {
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .bio {
+    font-size: 0.9rem;
+  }
+
+  .socialLinks {
+    padding: 1rem;
+  }
 }

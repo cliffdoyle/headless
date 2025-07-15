@@ -6,6 +6,8 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import PostDetail from './pages/PostDetail/PostDetail';
 import Submit from './pages/Submit/Submit';
+import AuthTest from './components/AuthTest';
+import MediaUploadTest from './components/MediaUploadTest';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/submit" element={<Submit />} />
+            <Route path="/test-auth" element={<AuthTest />} />
+            <Route path="/test-media" element={<MediaUploadTest />} />
             <Route path="/post/:slug" element={<PostDetail />} />
           </Routes>
         </div>

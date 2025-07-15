@@ -40,23 +40,89 @@ export const getAdminData = async (adminId = 1) => {
 
 // Handle the full submission workflow
 export const createPost = async (postData) => {
-  // 1. Upload the image file first to the media endpoint
-  const mediaResponse = await secureApi.post('/media', postData.image, {
-    headers: {
-      'Content-Type': postData.image.type,
-      'Content-Disposition': `attachment; filename=${postData.image.name}`,
-    },
-  });
-  const mediaId = mediaResponse.data.id;
-
-  // 2. Create the post and link the uploaded image as the featured image
-  const postResponse = await secureApi.post('/posts', {
+  console.log('Starting post creation process...');
+  console.log('Post data:', {
     title: postData.title,
-    // We can embed the user's name directly into the content
-    content: `${postData.content} <hr> <em>Submitted by: ${postData.author}</em>`,
-    status: 'pending', // THIS IS THE KEY! Saves as a draft for review.
-    featured_media: mediaId,
+    author: postData.author,
+    contentLength: postData.content?.length,
+    imageType: postData.image?.type,
+    imageName: postData.image?.name,
+    imageSize: postData.image?.size
   });
 
-  return postResponse.data;
+  try {
+    // 1. Upload the image file first to the media endpoint
+    console.log('Step 1: Uploading image...');
+
+    let mediaResponse;
+    try {
+      // Try Method 1: Direct binary upload (original method)
+      mediaResponse = await secureApi.post('/media', postData.image, {
+        headers: {
+          'Content-Type': postData.image.type,
+          'Content-Disposition': `attachment; filename=${postData.image.name}`,
+        },
+      });
+      console.log('✅ Image upload successful (Method 1)');
+    } catch (uploadError) {
+      console.log('Method 1 failed, trying Method 2 (FormData)...');
+      console.error('Upload error:', uploadError.response?.data || uploadError.message);
+
+      // Try Method 2: FormData upload
+      const formData = new FormData();
+      formData.append('file', postData.image, postData.image.name);
+      formData.append('title', `Featured image for ${postData.title}`);
+
+      const response = await fetch(`${BASE_URL}/wp-json/wp/v2/media`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Basic ${btoa(`${USERNAME}:${PASSWORD}`)}`,
+        },
+        body: formData
+      });
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`Media upload failed: ${response.status} - ${errorText}`);
+      }
+
+      mediaResponse = { data: await response.json() };
+      console.log('✅ Image upload successful (Method 2)');
+    }
+
+    const mediaId = mediaResponse.data.id;
+    console.log('Media ID:', mediaId);
+    console.log('Media URL:', mediaResponse.data.source_url);
+
+    // 2. Create the post and link the uploaded image as the featured image
+    console.log('Step 2: Creating post...');
+    const postResponse = await secureApi.post('/posts', {
+      title: postData.title,
+      content: `${postData.content} <hr> <em>Submitted by: ${postData.author}</em>`,
+      status: 'pending',
+      featured_media: mediaId,
+    });
+
+    console.log('✅ Post creation successful');
+    console.log('Post ID:', postResponse.data.id);
+    console.log('Post status:', postResponse.data.status);
+
+    return postResponse.data;
+
+  } catch (error) {
+    console.error('❌ Post creation failed:', error);
+    console.error('Error details:', error.response?.data || error.message);
+    throw error;
+  }
+};
+
+// Test WordPress connection and authentication
+export const testWordPressConnection = async () => {
+  try {
+    const response = await secureApi.get('/users/me');
+    return response.data;
+  } catch (error) {
+    console.error('WordPress connection test failed:', error);
+    throw error;
+  }
 };

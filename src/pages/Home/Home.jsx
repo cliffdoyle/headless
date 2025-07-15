@@ -1,5 +1,5 @@
 // src/pages/Home/Home.js
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getPublishedPosts, getAdminData } from '../../api/wordpress';
 import BlogCard from '../../components/BlogCard/BlogCard';
 import AdminInfo from '../../components/AdminInfo/AdminInfo';
@@ -48,33 +48,75 @@ const Home = () => {
     setFilteredPosts(filtered);
   };
 
-
   if (loading) return <Loader />;
   if (error) return <p className={styles.error}>{error}</p>;
 
   return (
     <>
       {/* React 19 native SEO tags */}
-      <title>ModernBlog - Stunning User-Submitted Articles</title>
-      <meta name="description" content="A stunning and aesthetic blog built with React and a headless WordPress CMS, featuring user submissions." />
+      <title>Lanfintech - Financial Technology Insights & Innovation</title>
+      <meta name="description" content="Discover cutting-edge financial technology insights, innovations, and expert analysis from industry leaders and innovators." />
 
-      <div className={styles.homeLayout}>
-        <div className={styles.mainContent}>
-          <SearchBar onSearch={handleSearch} />
-          <h1 className={styles.pageTitle}>Published Blogs</h1>
-          {filteredPosts.length > 0 ? (
-            <div className={styles.postsGrid}>
-              {filteredPosts.map((post) => (
-                <BlogCard key={post.id} post={post} />
-              ))}
+      <div className={styles.container}>
+        {/* Hero Section */}
+        <section className={styles.hero}>
+          <div className={styles.heroContent}>
+            <h1 className={styles.heroTitle}>
+              Welcome to <span className={styles.brandName}>Lanfintech</span>
+            </h1>
+            <p className={styles.heroSubtitle}>
+              Explore the future of financial technology through expert insights, innovative solutions, and industry-leading analysis
+            </p>
+            <div className={styles.heroStats}>
+              <div className={styles.stat}>
+                <span className={styles.statNumber}>{allPosts.length}</span>
+                <span className={styles.statLabel}>Expert Insights</span>
+              </div>
+              <div className={styles.stat}>
+                <span className={styles.statNumber}>24/7</span>
+                <span className={styles.statLabel}>Market Analysis</span>
+              </div>
+              <div className={styles.stat}>
+                <span className={styles.statNumber}>∞</span>
+                <span className={styles.statLabel}>Innovation</span>
+              </div>
             </div>
-          ) : (
-            <p>No blog posts found matching your search.</p>
-          )}
+          </div>
+        </section>
+
+        {/* Main Content Layout */}
+        <div className={styles.homeLayout}>
+          <main className={styles.mainContent}>
+            <div className={styles.searchSection}>
+              <SearchBar onSearch={handleSearch} />
+            </div>
+
+            <section className={styles.postsSection}>
+              <h2 className={styles.sectionTitle}>Latest Fintech Insights</h2>
+              {filteredPosts.length > 0 ? (
+                <div className={styles.postsGrid}>
+                  {filteredPosts.map((post) => (
+                    <BlogCard key={post.id} post={post} />
+                  ))}
+                </div>
+              ) : (
+                <div className={styles.noResults}>
+                  <p>No blog posts found matching your search.</p>
+                  <button
+                    className="btn btn-secondary"
+                    onClick={() => handleSearch('')}
+                  >
+                    Show All Posts
+                  </button>
+                </div>
+              )}
+            </section>
+          </main>
+
+          <aside className={styles.sidebar}>
+            {adminData && <AdminInfo admin={adminData} />}
+          </aside>
         </div>
-        <aside className={styles.sidebar}>
-          {adminData && <AdminInfo admin={adminData} />}
-        </aside>
       </div>
     </>
   );
