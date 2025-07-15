@@ -65,20 +65,20 @@ const Home = () => {
               Welcome to <span className={styles.brandName}>Lanfintech</span>
             </h1>
             <p className={styles.heroSubtitle}>
-              Explore the future of financial technology through expert insights, innovative solutions, and industry-leading analysis
+              Discover insights across lifestyle, health, finance, and technology - where diverse topics converge for modern living
             </p>
             <div className={styles.heroStats}>
               <div className={styles.stat}>
                 <span className={styles.statNumber}>{allPosts.length}</span>
-                <span className={styles.statLabel}>Expert Insights</span>
+                <span className={styles.statLabel}>Diverse Articles</span>
               </div>
               <div className={styles.stat}>
-                <span className={styles.statNumber}>24/7</span>
-                <span className={styles.statLabel}>Market Analysis</span>
+                <span className={styles.statNumber}>4</span>
+                <span className={styles.statLabel}>Core Topics</span>
               </div>
               <div className={styles.stat}>
                 <span className={styles.statNumber}>∞</span>
-                <span className={styles.statLabel}>Innovation</span>
+                <span className={styles.statLabel}>Possibilities</span>
               </div>
             </div>
           </div>
