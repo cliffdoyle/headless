@@ -1,0 +1,52 @@
+.card {
+  background-color: var(--surface-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cardLink { text-decoration: none; }
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem 0;
+  color: var(--primary-color);
+}
+
+.cardExcerpt {
+  font-size: 0.95rem;
+  color: var(--secondary-color);
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.cardExcerpt p { margin: 0; }
+
+.cardAuthor {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}

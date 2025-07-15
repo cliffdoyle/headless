@@ -1,0 +1,3 @@
+import React from 'react'; import styles from './AdminInfo.module.css'; import parse from 'html-react-parser';
+const AdminInfo = ({ admin }) => { if (!admin) return null; return (<div className={styles.adminBox}><h3 className={styles.title}>About the Admin</h3><img src={admin.avatar_urls['96']} alt={admin.name} className={styles.avatar} /><h4 className={styles.name}>{admin.name}</h4><div className={styles.bio}>{parse(admin.description || 'The admin has not provided a bio.')}</div></div>); };
+export default AdminInfo;

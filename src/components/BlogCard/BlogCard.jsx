@@ -1,0 +1,5 @@
+import React from 'react'; import { Link } from 'react-router-dom'; import parse from 'html-react-parser'; import styles from './BlogCard.module.css';
+const FALLBACK_IMAGE = 'https://via.placeholder.com/400x250/f2f2f7/3a3a3c?text=ModernBlog';
+const BlogCard = ({ post }) => { const imageUrl = post._embedded?.['wp:featuredmedia']?.[0]?.source_url || FALLBACK_IMAGE; const authorName = post._embedded?.author?.[0]?.name || 'Anonymous'; const excerpt = post.excerpt.rendered;
+return (<Link to={`/post/${post.slug}`} className={styles.cardLink}><div className={styles.card}><img src={imageUrl} alt={post.title.rendered} className={styles.cardImage} /><div className={styles.cardContent}><h2 className={styles.cardTitle}>{parse(post.title.rendered)}</h2><div className={styles.cardExcerpt}>{parse(excerpt)}</div><p className={styles.cardAuthor}>By {authorName}</p></div></div></Link>);};
+export default BlogCard;
