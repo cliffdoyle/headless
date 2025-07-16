@@ -62,10 +62,10 @@ const Home = () => {
         <section className={styles.hero}>
           <div className={styles.heroContent}>
             <h1 className={styles.heroTitle}>
-              Welcome to <span className={styles.brandName}>Lanfintech</span>
+              Welcome to <span className={styles.brandName}>Philimore Insights</span>
             </h1>
             <p className={styles.heroSubtitle}>
-              Discover insights across lifestyle, health, finance, and technology - where diverse topics converge for modern living
+              Discover insights across lifestyle, health, finance, and technology - where diverse perspectives converge for modern living
             </p>
             <div className={styles.heroStats}>
               <div className={styles.stat}>
@@ -92,7 +92,7 @@ const Home = () => {
             </div>
 
             <section className={styles.postsSection}>
-              <h2 className={styles.sectionTitle}>Latest Fintech Insights</h2>
+              <h2 className={styles.sectionTitle}>Latest Articles</h2>
               {filteredPosts.length > 0 ? (
                 <div className={styles.postsGrid}>
                   {filteredPosts.map((post) => (

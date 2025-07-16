@@ -11,9 +11,9 @@ import MediaUploadTest from './components/MediaUploadTest';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <Header />
-      <main>
+      <main style={{ flex: '1' }}>
         <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />

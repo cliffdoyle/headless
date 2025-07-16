@@ -56,7 +56,7 @@ const PostDetail = () => {
   return (
     <>
       {/* React 19 native SEO tags */}
-      <title>{`${postTitle} - ModernBlog`}</title>
+      <title>{`${postTitle} - Philimore Insights`}</title>
       <meta name="description" content={metaDescription} />
 
       <article className={styles.post}>

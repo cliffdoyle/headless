@@ -12,13 +12,13 @@ const Submit = () => {
   const [imagePreview, setImagePreview] = useState(null);
   const [testResults, setTestResults] = useState(null);
 
-  // Apply dark theme to body when component mounts
+  // Apply light theme to body when component mounts
   useEffect(() => {
-    document.body.classList.add('dark-theme');
+    document.body.classList.add('light-theme');
 
-    // Cleanup: remove dark theme when component unmounts
+    // Cleanup: remove light theme when component unmounts
     return () => {
-      document.body.classList.remove('dark-theme');
+      document.body.classList.remove('light-theme');
     };
   }, []);
 

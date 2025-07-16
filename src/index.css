@@ -1,34 +1,34 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
-/* Augment-inspired dark theme design system */
+/* Vibrant white theme design system - Philimore Insights */
 :root {
-  /* Primary dark theme colors - inspired by Augment Code */
-  --primary-color: #f1f5f9;
-  --secondary-color: #94a3b8;
-  --background-color: #0f172a;
-  --surface-color: #1e293b;
-  --surface-hover: #334155;
-  --accent-color: #3b82f6;
-  --accent-hover: #2563eb;
-  --accent-secondary: #8b5cf6;
-  --success-color: #10b981;
-  --error-color: #ef4444;
-  --warning-color: #f59e0b;
+  /* Primary vibrant white theme colors */
+  --primary-color: #1a202c;
+  --secondary-color: #4a5568;
+  --background-color: #ffffff;
+  --surface-color: #f7fafc;
+  --surface-hover: #edf2f7;
+  --accent-color: #3182ce;
+  --accent-hover: #2c5282;
+  --accent-secondary: #805ad5;
+  --success-color: #38a169;
+  --error-color: #e53e3e;
+  --warning-color: #d69e2e;
 
-  /* Additional dark theme colors */
-  --text-muted: #64748b;
-  --border-color: #334155;
-  --border-light: #475569;
+  /* Additional vibrant theme colors */
+  --text-muted: #718096;
+  --border-color: #e2e8f0;
+  --border-light: #cbd5e0;
   --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --gradient-secondary: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-  --gradient-surface: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  --gradient-secondary: linear-gradient(135deg, #3182ce 0%, #805ad5 100%);
+  --gradient-surface: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
 
-  /* Augment-style gradients */
-  --hero-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-  --card-gradient: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(51, 65, 85, 0.6) 100%);
-  --button-gradient: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  --button-gradient-hover: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  /* Vibrant gradients */
+  --hero-gradient: linear-gradient(135deg, #ffffff 0%, #f7fafc 50%, #edf2f7 100%);
+  --card-gradient: linear-gradient(135deg, rgba(247, 250, 252, 0.9) 0%, rgba(237, 242, 247, 0.8) 100%);
+  --button-gradient: linear-gradient(135deg, #3182ce 0%, #2c5282 100%);
+  --button-gradient-hover: linear-gradient(135deg, #2c5282 0%, #2a4365 100%);
   
   /* Typography */
   --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -48,7 +48,7 @@
   --border-radius-lg: 1rem;
   --box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --border-color: #e5e7eb;
+  --box-shadow-color: rgba(0, 0, 0, 0.1);
   
   /* Transitions */
   --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -71,8 +71,8 @@ body {
   min-height: 100vh;
 }
 
-/* Enhanced dark theme for submit page */
-body.dark-theme {
+/* Enhanced vibrant white theme */
+body.light-theme {
   background: var(--hero-gradient);
   color: var(--primary-color);
   min-height: 100vh;
@@ -171,7 +171,8 @@ a:hover {
   font-family: var(--font-family);
   font-size: 0.875rem;
   transition: var(--transition);
-  background-color: var(--surface-color);
+  background-color: var(--background-color);
+  color: var(--primary-color);
 }
 
 .form-input:focus {
