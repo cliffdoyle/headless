@@ -70,8 +70,8 @@ const structure = (S) =>
     ])
 
 export default defineConfig({
-  name: 'lanfintech-studio',
-  title: 'Lanfintech Studio',
+  name: 'phil-insights-studio',
+  title: 'Phil Insights Studio',
 
   projectId: 'l4fw3vb6',
   dataset: 'production',

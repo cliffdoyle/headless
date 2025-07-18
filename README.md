@@ -1,6 +1,6 @@
-# Lanfintech Blog - React + WordPress Headless CMS
+# Phil Insights Blog - React + Sanity CMS
 
-A modern, responsive blog built with React and powered by WordPress as a headless CMS.
+A modern, responsive blog built with React and powered by Sanity as a headless CMS.
 
 ## Features
 

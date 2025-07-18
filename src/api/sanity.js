@@ -104,7 +104,14 @@ export const getAdminData = async (authorId = null) => {
 
     // If no specific author ID, get the first author or a default one
     const query = authorId
-      ? `*[_type == "author" && _id == $authorId][0]`
+      ? `*[_type == "author" && _id == $authorId][0] {
+          _id,
+          name,
+          bio,
+          image,
+          email,
+          social
+        }`
       : `*[_type == "author"][0] {
           _id,
           name,

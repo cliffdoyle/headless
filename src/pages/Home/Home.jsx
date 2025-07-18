@@ -32,7 +32,7 @@ const Home = () => {
         console.log('Sanity API is working, fetching data...');
         const [posts, admin] = await Promise.all([
           getPublishedPosts(),
-          getAdminData(1) // Fetch data for admin user ID 1
+          getAdminData() // Fetch first available author
         ]);
 
         console.log('Fetched posts:', posts.length);
