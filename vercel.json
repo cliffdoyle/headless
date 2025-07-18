@@ -6,32 +6,10 @@
   "devCommand": "npm run dev",
   "env": {
     "VITE_WORDPRESS_URL": "@wordpress_url",
-    "VITE_WORDPRESS_USERNAME": "@wordpress_username", 
+    "VITE_WORDPRESS_USERNAME": "@wordpress_username",
     "VITE_WORDPRESS_APP_PASSWORD": "@wordpress_app_password"
   },
-  "functions": {
-    "src/api/*.js": {
-      "maxDuration": 30
-    }
-  },
   "headers": [
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET, POST, PUT, DELETE, OPTIONS"
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "Content-Type, Authorization"
-        }
-      ]
-    },
     {
       "source": "/(.*)",
       "headers": [
