@@ -57,7 +57,9 @@ const Submit = () => {
 
       let errorMessage = 'There was an error submitting your post. ';
 
-      if (err.response?.status === 401) {
+      if (err.message?.includes('read only') || err.message?.includes('readonly') || err.message?.includes('patch data')) {
+        errorMessage = '🔒 Sanity Token Permission Error: Your token doesn\'t have write permissions. Please check the instructions below to fix this.';
+      } else if (err.response?.status === 401) {
         errorMessage += 'Authentication failed. Please check your credentials.';
       } else if (err.response?.status === 403) {
         errorMessage += 'Permission denied. Your user account may not have the required permissions.';
@@ -156,6 +158,21 @@ const Submit = () => {
 
         {status.error && <p className={styles.errorMessage}>{status.error}</p>}
         {status.success && <p className={styles.successMessage}>{status.success}</p>}
+
+        {/* Help section for Sanity token issues */}
+        {status.error?.includes('Token Permission Error') && (
+          <div className={styles.helpSection}>
+            <h3>🔧 How to Fix Sanity Token Permissions</h3>
+            <div className={styles.helpContent}>
+              <p><strong>Step 1:</strong> Go to <a href="https://sanity.io/manage" target="_blank" rel="noopener noreferrer">sanity.io/manage</a></p>
+              <p><strong>Step 2:</strong> Select your project: <code>l4fw3vb6</code></p>
+              <p><strong>Step 3:</strong> Go to API → Tokens</p>
+              <p><strong>Step 4:</strong> Create a new token with <strong>Editor</strong> permissions</p>
+              <p><strong>Step 5:</strong> Update your <code>.env</code> file with the new token</p>
+              <p><strong>Step 6:</strong> Restart your development server</p>
+            </div>
+          </div>
+        )}
       </div>
     </>
   );

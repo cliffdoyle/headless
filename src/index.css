@@ -52,6 +52,15 @@
   
   /* Transitions */
   --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Dark theme variables for Submit page */
+  --dark-primary-color: #ffffff;
+  --dark-secondary-color: #a0a0a0;
+  --dark-accent-color: #3b82f6;
+  --dark-accent-hover: #1d4ed8;
+  --dark-border-color: rgba(255, 255, 255, 0.1);
+  --dark-success-color: #34d399;
+  --dark-error-color: #f87171;
 }
 
 

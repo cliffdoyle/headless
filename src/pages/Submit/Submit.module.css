@@ -210,7 +210,7 @@
 }
 
 .submitButton:hover:not(:disabled) {
-  background: linear-gradient(135deg, var(--dark-accent-hover) 0%, #2563eb 100%);
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
   transform: translateY(-2px);
   box-shadow: 0 15px 35px -8px rgba(96, 165, 250, 0.4);
 }
@@ -368,6 +368,50 @@
 .permissionsDetail p {
   margin: 0.5rem 0;
   color: var(--dark-success-color);
+}
+
+/* Help Section */
+.helpSection {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 1rem;
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.helpSection h3 {
+  margin-top: 0;
+  color: #3b82f6;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.helpContent p {
+  margin: 1rem 0;
+  color: var(--primary-color);
+  line-height: 1.6;
+}
+
+.helpContent code {
+  background: rgba(59, 130, 246, 0.2);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #3b82f6;
+}
+
+.helpContent a {
+  color: #3b82f6;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.helpContent a:hover {
+  color: #1d4ed8;
 }
 
 /* Responsive Design */

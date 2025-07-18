@@ -7,12 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test-sanity": "node test-sanity-token.js"
   },
   "dependencies": {
     "@sanity/client": "^7.8.0",
     "@sanity/image-url": "^1.1.0",
     "axios": "^1.10.0",
+    "dotenv": "^16.4.5",
     "html-react-parser": "^5.2.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
