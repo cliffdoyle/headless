@@ -1,2 +1,0 @@
-This is a test file for WordPress media upload.
-Testing the upload permissions fix.

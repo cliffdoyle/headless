@@ -1,7 +1,6 @@
 // src/pages/Submit/Submit.js
 import { useState, useEffect } from 'react';
 import { createPost } from '../../api/wordpress';
-import { testConnection, testAuthConnection, testPostCreation, testMediaUpload, testUserPermissions } from '../../utils/testConnection';
 import styles from './Submit.module.css';
 
 const Submit = () => {
@@ -10,7 +9,6 @@ const Submit = () => {
   });
   const [status, setStatus] = useState({ loading: false, error: null, success: null });
   const [imagePreview, setImagePreview] = useState(null);
-  const [testResults, setTestResults] = useState(null);
 
   // Apply light theme to body when component mounts
   useEffect(() => {
@@ -35,27 +33,7 @@ const Submit = () => {
     }
   };
 
-  const runConnectionTests = async () => {
-    setTestResults('Running tests...');
-    console.log('=== WordPress Connection Tests ===');
 
-    const test1 = await testConnection();
-    const test2 = await testAuthConnection();
-    const test3 = await testPostCreation();
-    const test4 = await testMediaUpload();
-    const test5 = await testUserPermissions();
-
-    const results = {
-      basicConnection: test1,
-      authentication: test2,
-      postCreation: test3,
-      mediaUpload: test4,
-      userPermissions: test5
-    };
-
-    setTestResults(results);
-    console.log('=== Test Results ===', results);
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -178,58 +156,6 @@ const Submit = () => {
 
         {status.error && <p className={styles.errorMessage}>{status.error}</p>}
         {status.success && <p className={styles.successMessage}>{status.success}</p>}
-
-        {/* Debug Section */}
-        <div className={styles.debugSection}>
-          <h3>🔧 Debug WordPress Connection</h3>
-          <button
-            type="button"
-            onClick={runConnectionTests}
-            className={styles.testButton}
-          >
-            Test WordPress Connection
-          </button>
-
-          {testResults && (
-            <div className={styles.testResults}>
-              <h4>Test Results:</h4>
-              {typeof testResults === 'string' ? (
-                <p>{testResults}</p>
-              ) : (
-                <div>
-                  <p>✅ Basic Connection: {testResults.basicConnection?.success ? 'SUCCESS' : 'FAILED'}</p>
-                  <p>🔐 Authentication: {testResults.authentication?.success ? 'SUCCESS' : 'FAILED'}</p>
-                  <p>📝 Post Creation: {testResults.postCreation?.success ? 'SUCCESS' : 'FAILED'}</p>
-                  <p>📁 Media Upload: {testResults.mediaUpload?.success ? 'SUCCESS' : 'FAILED'}</p>
-                  <p>👤 User Permissions: {testResults.userPermissions?.success ? 'SUCCESS' : 'FAILED'}</p>
-
-                  {!testResults.basicConnection?.success && (
-                    <p className={styles.errorDetail}>Basic Error: {testResults.basicConnection?.error}</p>
-                  )}
-                  {!testResults.authentication?.success && (
-                    <p className={styles.errorDetail}>Auth Error: {JSON.stringify(testResults.authentication?.error)}</p>
-                  )}
-                  {!testResults.postCreation?.success && (
-                    <p className={styles.errorDetail}>Post Error: {JSON.stringify(testResults.postCreation?.error)}</p>
-                  )}
-                  {!testResults.mediaUpload?.success && (
-                    <p className={styles.errorDetail}>Media Error: {JSON.stringify(testResults.mediaUpload?.error)}</p>
-                  )}
-                  {!testResults.userPermissions?.success && (
-                    <p className={styles.errorDetail}>Permissions Error: {JSON.stringify(testResults.userPermissions?.error)}</p>
-                  )}
-                  {testResults.userPermissions?.success && (
-                    <div className={styles.permissionsDetail}>
-                      <p><strong>User:</strong> {testResults.userPermissions.user?.username}</p>
-                      <p><strong>Can upload files:</strong> {testResults.userPermissions.user?.capabilities?.upload_files ? 'YES' : 'NO'}</p>
-                      <p><strong>Can edit posts:</strong> {testResults.userPermissions.user?.capabilities?.edit_posts ? 'YES' : 'NO'}</p>
-                    </div>
-                  )}
-                </div>
-              )}
-            </div>
-          )}
-        </div>
       </div>
     </>
   );
