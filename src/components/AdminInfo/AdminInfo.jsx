@@ -1,4 +1,5 @@
 import parse from 'html-react-parser';
+import { urlFor } from '../../api/sanity';
 import styles from './AdminInfo.module.css';
 
 const AdminInfo = ({ admin }) => {
@@ -22,7 +23,7 @@ const AdminInfo = ({ admin }) => {
       <div className={styles.profileSection}>
         <div className={styles.avatarContainer}>
           <img
-            src={admin.avatar_urls['96']}
+            src={admin.image ? urlFor(admin.image).width(96).height(96).url() : 'https://via.placeholder.com/96x96/f2f2f7/3a3a3c?text=Author'}
             alt={admin.name}
             className={styles.avatar}
           />
@@ -34,7 +35,7 @@ const AdminInfo = ({ admin }) => {
       </div>
 
       <div className={styles.bio}>
-        {parse(admin.description || defaultBio)}
+        {parse(admin.bio || defaultBio)}
       </div>
 
       <div className={styles.socialLinks}>

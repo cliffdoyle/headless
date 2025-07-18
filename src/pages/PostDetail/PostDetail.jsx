@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import parse from 'html-react-parser';
-import { getPostBySlug } from '../../api/wordpress';
+import { getPostBySlug, urlFor } from '../../api/sanity';
 import Loader from '../../components/Loader/Loader';
 import styles from './PostDetail.module.css';
 
@@ -44,14 +44,14 @@ const PostDetail = () => {
   if (error) return <p className={styles.error}>{error}</p>;
   if (!post) return null;
 
-  const imageUrl = post._embedded?.['wp:featuredmedia']?.[0]?.source_url || FALLBACK_IMAGE;
-  const authorName = post._embedded?.author?.[0]?.name || 'Anonymous';
-  const postDate = new Date(post.date).toLocaleDateString('en-US', {
+  const imageUrl = post.mainImage ? urlFor(post.mainImage).width(1200).height(500).url() : FALLBACK_IMAGE;
+  const authorName = post.author?.name || 'Anonymous';
+  const postDate = new Date(post.publishedAt).toLocaleDateString('en-US', {
     year: 'numeric', month: 'long', day: 'numeric',
   });
-  
-  const postTitle = parse(post.title.rendered).toString();
-  const metaDescription = stripHtml(post.excerpt.rendered).substring(0, 160);
+
+  const postTitle = post.title;
+  const metaDescription = post.excerpt ? stripHtml(post.excerpt).substring(0, 160) : '';
 
   return (
     <>
@@ -60,7 +60,7 @@ const PostDetail = () => {
       <meta name="description" content={metaDescription} />
 
       <article className={styles.post}>
-        <h1 className={styles.postTitle}>{parse(post.title.rendered)}</h1>
+        <h1 className={styles.postTitle}>{post.title}</h1>
         <div className={styles.postMeta}>
           <span>By {authorName}</span>
           <span>•</span>
@@ -68,7 +68,7 @@ const PostDetail = () => {
         </div>
         <img src={imageUrl} alt={postTitle} className={styles.featuredImage} />
         <div className={styles.postContent}>
-          {parse(post.content.rendered)}
+          {parse(post.content)}
         </div>
       </article>
     </>

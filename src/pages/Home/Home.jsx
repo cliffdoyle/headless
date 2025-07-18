@@ -1,6 +1,6 @@
 // src/pages/Home/Home.js
 import { useState, useEffect } from 'react';
-import { getPublishedPosts, getAdminData } from '../../api/wordpress';
+import { getPublishedPosts, getAdminData, testSanityAPI } from '../../api/sanity';
 import BlogCard from '../../components/BlogCard/BlogCard';
 import AdminInfo from '../../components/AdminInfo/AdminInfo';
 import Loader from '../../components/Loader/Loader';
@@ -18,16 +18,33 @@ const Home = () => {
     const fetchData = async () => {
       try {
         setLoading(true);
+        setError(null);
+
+        // First test the Sanity API connectivity
+        console.log('Testing Sanity API connectivity...');
+        const apiTest = await testSanityAPI();
+        console.log('API Test Result:', apiTest);
+
+        if (!apiTest.success) {
+          throw new Error(`Sanity API is not accessible: ${apiTest.error}`);
+        }
+
+        console.log('Sanity API is working, fetching data...');
         const [posts, admin] = await Promise.all([
           getPublishedPosts(),
           getAdminData(1) // Fetch data for admin user ID 1
         ]);
+
+        console.log('Fetched posts:', posts.length);
+        console.log('Fetched admin data:', admin ? 'Success' : 'Failed');
+
         setAllPosts(posts);
         setFilteredPosts(posts);
         setAdminData(admin);
       } catch (err) {
-        setError('Failed to fetch data. Please try again later.');
-        console.error(err);
+        const errorMessage = err.message || 'Failed to fetch data. Please try again later.';
+        setError(errorMessage);
+        console.error('Fetch data error:', err);
       } finally {
         setLoading(false);
       }
@@ -42,27 +59,38 @@ const Home = () => {
     }
     const lowercasedTerm = searchTerm.toLowerCase();
     const filtered = allPosts.filter(post =>
-      post.title.rendered.toLowerCase().includes(lowercasedTerm) ||
-      post.excerpt.rendered.toLowerCase().includes(lowercasedTerm)
+      post.title.toLowerCase().includes(lowercasedTerm) ||
+      (post.excerpt && post.excerpt.toLowerCase().includes(lowercasedTerm))
     );
     setFilteredPosts(filtered);
   };
 
   if (loading) return <Loader />;
-  if (error) return <p className={styles.error}>{error}</p>;
+  if (error) return (
+    <div className={styles.errorContainer}>
+      <p className={styles.error}>{error}</p>
+      <button
+        className="btn btn-primary"
+        onClick={() => window.location.reload()}
+        style={{ marginTop: '1rem' }}
+      >
+        Retry Loading
+      </button>
+    </div>
+  );
 
   return (
     <>
       {/* React 19 native SEO tags */}
-      <title>Lanfintech - Financial Technology Insights & Innovation</title>
-      <meta name="description" content="Discover cutting-edge financial technology insights, innovations, and expert analysis from industry leaders and innovators." />
+      <title>Phil - Insights | Lifestyle, Health, Finance & Technology</title>
+      <meta name="description" content="Discover insights across lifestyle, health, finance, and technology - where diverse perspectives converge for modern living." />
 
       <div className={styles.container}>
         {/* Hero Section */}
         <section className={styles.hero}>
           <div className={styles.heroContent}>
             <h1 className={styles.heroTitle}>
-              Welcome to <span className={styles.brandName}>Philimore Insights</span>
+              Welcome to <span className={styles.brandName}>Phil - Insights</span>
             </h1>
             <p className={styles.heroSubtitle}>
               Discover insights across lifestyle, health, finance, and technology - where diverse perspectives converge for modern living

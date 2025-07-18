@@ -1,6 +1,6 @@
 // src/pages/Submit/Submit.js
 import { useState, useEffect } from 'react';
-import { createPost } from '../../api/wordpress';
+import { createPost } from '../../api/sanity';
 import styles from './Submit.module.css';
 
 const Submit = () => {
