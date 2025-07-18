@@ -1,69 +1,50 @@
-# React + TypeScript + Vite
+# Lanfintech Blog - React + WordPress Headless CMS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive blog built with React and powered by WordPress as a headless CMS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌙 Dark theme design
+- 📱 Fully responsive
+- ⚡ Fast loading with Vite
+- 📝 Article submission form
+- 🔍 Search functionality
+- 📊 Admin bio section
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend**: React, Vite, CSS Modules
+- **Backend**: WordPress REST API
+- **Styling**: CSS Modules with dark theme
+- **Deployment**: Vercel
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Environment Variables
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Set these in your Vercel deployment:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+VITE_WORDPRESS_USERNAME=your_wordpress_username
+VITE_WORDPRESS_APP_PASSWORD=your_app_password
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## WordPress Setup
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Install WordPress
+2. Enable REST API (usually enabled by default)
+3. Create an Application Password for API access
+4. Ensure HTTPS is configured for production
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Development
+
+```bash
+npm install
+npm run dev
 ```
+
+## Deployment
+
+This project is configured for automatic deployment on Vercel. Simply push to the main branch and Vercel will handle the build and deployment.
+
+## WordPress Connection
+
+The app connects to `https://wp.vanessaphil.com` via the WordPress REST API. Posts are fetched publicly, while post creation requires authentication.
