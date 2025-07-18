@@ -2,23 +2,50 @@
 import axios from 'axios';
 
 // Accessing environment variables in Vite uses import.meta.env
-const BASE_URL = import.meta.env.VITE_WORDPRESS_URL;
+let BASE_URL = import.meta.env.VITE_WORDPRESS_URL;
 const USERNAME = import.meta.env.VITE_WORDPRESS_USERNAME;
 const PASSWORD = import.meta.env.VITE_WORDPRESS_APP_PASSWORD;
+
+// Force HTTPS if we're on a secure connection to avoid mixed content issues
+if (typeof window !== 'undefined' && window.location.protocol === 'https:' && BASE_URL?.startsWith('http:')) {
+  BASE_URL = BASE_URL.replace('http:', 'https:');
+  console.log('🔒 Upgraded WordPress URL to HTTPS:', BASE_URL);
+}
+
+// Debug environment variables (remove in production)
+console.log('WordPress Config:', {
+  BASE_URL,
+  USERNAME: USERNAME ? '✓ Set' : '✗ Missing',
+  PASSWORD: PASSWORD ? '✓ Set' : '✗ Missing'
+});
 
 // This API instance is for public requests (GET)
 const api = axios.create({
   baseURL: `${BASE_URL}/wp-json/wp/v2`,
+  timeout: 10000, // 10 second timeout
 });
 
 // This API instance is for authenticated requests (POST)
 const secureApi = axios.create({
   baseURL: `${BASE_URL}/wp-json/wp/v2`,
+  timeout: 30000, // 30 second timeout for uploads
   headers: {
     'Content-Type': 'application/json',
     'Authorization': `Basic ${btoa(`${USERNAME}:${PASSWORD}`)}`,
   },
 });
+
+// Add response interceptor to handle mixed content errors
+const handleMixedContentError = (error) => {
+  if (error.code === 'ERR_NETWORK' || error.message?.includes('Mixed Content')) {
+    console.error('🚫 Mixed Content Error detected. WordPress URL might be HTTP while site is HTTPS.');
+    console.error('💡 Solution: Ensure WordPress URL uses HTTPS or configure proper SSL.');
+  }
+  return Promise.reject(error);
+};
+
+api.interceptors.response.use(response => response, handleMixedContentError);
+secureApi.interceptors.response.use(response => response, handleMixedContentError);
 
 // Fetch all published posts. _embed gets featured image and author data in one call.
 export const getPublishedPosts = async () => {

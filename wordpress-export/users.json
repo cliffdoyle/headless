@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Vanessa Philimore",
+    "url": "http://myblog-backend.local",
+    "description": "Welcome to my blog  where diverse insights converge for modern living. I'm passionate about exploring the interconnected dimensions of lifestyle, health, finance, and technology, bringing you well-researched articles that matter in today's fast-paced world.\r\n\r\nWith a focus on practical insights and emerging trends, I create content that bridges the gap between complex topics and everyday applications.",
+    "link": "http://myblog-backend.local/author/admin/",
+    "slug": "admin",
+    "avatar_urls": {
+      "24": "https://secure.gravatar.com/avatar/ea2f0581386a0b2ad0516b627e70512029a726d159d286eea360ae92d11a6edc?s=24&d=mm&r=g",
+      "48": "https://secure.gravatar.com/avatar/ea2f0581386a0b2ad0516b627e70512029a726d159d286eea360ae92d11a6edc?s=48&d=mm&r=g",
+      "96": "https://secure.gravatar.com/avatar/ea2f0581386a0b2ad0516b627e70512029a726d159d286eea360ae92d11a6edc?s=96&d=mm&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users"
+        }
+      ]
+    }
+  }
+]

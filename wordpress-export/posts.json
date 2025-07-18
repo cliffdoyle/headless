@@ -1,0 +1,2489 @@
+[
+  {
+    "id": 51,
+    "date": "2025-07-17T09:02:27",
+    "date_gmt": "2025-07-17T09:02:27",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=51"
+    },
+    "modified": "2025-07-17T09:02:27",
+    "modified_gmt": "2025-07-17T09:02:27",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=51",
+    "title": {
+      "rendered": "kkk"
+    },
+    "content": {
+      "rendered": "<p>ujnkkm </p>\n<hr>\n<p> <em>Submitted by: hhjhj</em></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>ujnkkm Submitted by: hhjhj</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 50,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-51",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/51",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=51"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/51/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/50"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=51"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=51"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=51"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "date": "2025-07-16T09:08:35",
+    "date_gmt": "2025-07-16T09:08:35",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=48"
+    },
+    "modified": "2025-07-16T09:08:35",
+    "modified_gmt": "2025-07-16T09:08:35",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=48",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-16T09:08:35.644Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-48",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/48",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=48"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/48/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=48"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=48"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=48"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "date": "2025-07-16T07:10:12",
+    "date_gmt": "2025-07-16T07:10:12",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=46"
+    },
+    "modified": "2025-07-16T07:10:12",
+    "modified_gmt": "2025-07-16T07:10:12",
+    "slug": "business-risks",
+    "status": "publish",
+    "type": "post",
+    "link": "http://myblog-backend.local/business-risks/",
+    "title": {
+      "rendered": "Business Risks"
+    },
+    "content": {
+      "rendered": "<p>Key Risk Categories in International Business Operations<br />\nIntroduction<br />\nVenturing in international business is an exciting frontier, a landscape filled with promise, new customers, and incredible opportunities for growth. As more and more businesses look beyond their home turf, the allure of international expansion is undeniable. However, this journey is far from simple. Stepping into foreign environments presents a labyrinth of challenges that demand sharp strategic planning and a deep understanding of the new terrain you’re entering (Cavusgil et al., 2020). While the potential for boosting revenue and diversifying your market is substantial, going global also means exposing your company to a host of new risks. These risks rarely stay in their own lane; they are often interconnected and can have a profound impact on whether your venture succeeds or fails (Hill et al., 2021).<br />\nIn this analysis, we’ll take a deep dive into the four primary categories of risk that every international business must learn to identify and navigate: the political, economic, cultural, and legal hurdles that define the global business landscape (Daniels et al., 2019).<br />\nPolitical Risks in International Business<br />\nOf all the challenges that face international businesses, political risk can often feel the most daunting and unpredictable. It’s the constant, underlying threat that a government&#8217;s actions or a country&#8217;s internal instability could suddenly upend your entire operation (Rugman &#038; Collinson, 2019). These risks don&#8217;t always announce themselves; they can range from subtle policy shifts to full-blown political chaos, and their consequences can be both immediate and devastating.<br />\nFirst and foremost, government instability is a foundational threat. When a country&#8217;s political system is shaky, businesses are forced to operate in a constant state of uncertainty. You’re left wondering if the existing policies, the contracts you’ve signed, and the regulatory frameworks you rely on will even exist tomorrow (Wild &#038; Wild, 2020). Regulatory changes are another critical dimension of political risk that can feel like the ground shifting beneath your feet. A new government might come to power and, with little to no warning, decide to implement new regulations, overhaul existing laws, or restructure the tax system in a way that directly targets or disadvantages foreign businesses (Daniels et al., 2019). These decisions can be driven by a change in political ideology, sudden economic pressures, or a desire to prioritize domestic industries, leaving foreign companies scrambling to adapt.<br />\nFinally, there’s the specter of expropriation and nationalization. While less common in stable, developed economies, this risk remains a significant concern in certain markets around the world. It’s the ultimate power play: a government seizes your company&#8217;s foreign-owned assets, particularly in strategic sectors like natural resources, energy, telecommunications, or utilities (Cavusgil et al., 2020).<br />\nEconomic Risks and Market Volatility<br />\nEconomic risks are deeply entwined with the political climate and represent the many ways economic conditions and financial turbulence can affect your international operations (Hill et al., 2021). For companies operating across different currencies and economic systems, these risks create a complex set of challenges that require constant vigilance and sophisticated financial management.<br />\nPerhaps the most immediate and visible economic risk is the fluctuation of currency exchange rates. When you’re conducting business in foreign currencies, you are perpetually exposed to potential losses from unfavorable shifts in the market (Rugman &#038; Collinson, 2019). A sudden drop in a foreign currency’s value can devalue the revenue you’ve earned abroad when you convert it back to your home currency. Conversely, a strengthening foreign currency can drive up the cost of your imported materials and labor. These fluctuations are a constant headache, affecting everything from product pricing and competitiveness to the cost of your supply chain. This is why companies must develop advanced hedging strategies to shield themselves from this exposure while trying to remain operationally agile.<br />\nFurthermore, a severe economic crisis can easily trigger a political response—like new protectionist policies or capital controls—that only compounds the difficulties that international businesses face.<br />\nCultural Risks and Social Considerations<br />\nCultural risks are often the most underestimated, yet they can quietly sabotage an international venture faster than almost anything else (Cavusgil et al., 2020). These risks are born from the deep-seated differences in values, communication styles, customs, and social norms that exist between your home country and a foreign market. They touch every aspect of your business, from how your products are received to how you manage your local team.<br />\nConsumer behavior and preferences are wildly different across cultures, and a failure to grasp these nuances can lead to epic product failures and marketing blunders (Hill et al., 2021). A product or advertisement that is perfectly acceptable, or even clever, in one market may be viewed as inappropriate, irrelevant, or deeply offensive in another. To avoid this, companies have to invest significant time and resources into deep market research and cultural adaptation, ensuring their products, services, and messaging truly resonate with local consumers. This goes beyond simple language translation; it involves a thoughtful consideration of religious beliefs, social etiquette, color symbolism, and local aesthetics.<br />\nCompanies must learn to adapt their human resource practices to align with local cultural norms while still maintaining a cohesive corporate culture and upholding core company values.<br />\nLegal and Regulatory Framework Risks<br />\nThe web of laws, regulations, and legal systems that companies must navigate when operating abroad constitutes a formidable category of legal risk.<br />\nAt its core, regulatory compliance is a fundamental and non-negotiable challenge.<br />\nA failure to comply can have serious consequences, leading to hefty fines, protracted legal battles, restrictions on your operations, or, in the worst-case scenario, being forced to exit the market entirely.<br />\nThe protection of intellectual property (IP) is another area fraught with legal risk. The strength and enforcement of IP laws vary dramatically across the globe. For companies whose value is built on proprietary technologies, well-known trademarks, or copyrighted materials, this is a massive concern. In some markets, IP laws may be weak or poorly enforced, leaving companies exposed to the rampant risks of counterfeiting, trademark infringement, or the outright theft of their trade secrets. It&#8217;s crucial for businesses to develop robust, multi-pronged strategies to protect their intellectual assets while navigating these diverse and often challenging legal environments.<br />\nConclusion<br />\nThe journey into international business is one defined by both immense opportunity and significant challenge. The identification and management of political, economic, cultural, and legal risks are fundamental tasks for any company looking to succeed in foreign markets. Each of these categories presents its own unique set of problems that demand specific strategies and deep expertise. Political risks require constant monitoring and geopolitical foresight. Economic risks demand sophisticated financial management and clever hedging. Cultural risks necessitate a genuine curiosity, deep local understanding, and a willingness to adapt. And legal risks call for rigorous compliance frameworks and proactive IP protection.<br />\nUltimately, success on the global stage belongs to the companies that can anticipate, assess, and adeptly respond to this diverse landscape of risk, all while appreciating its interconnected nature.<br />\nReferences<br />\nCavusgil, S. T., Knight, G., &#038; Riesenberger, J. R. (2020). International business: The new realities (5th ed.). Pearson.<br />\nDaniels, J. D., Radebaugh, L. H., &#038; Sullivan, D. P. (2019). International business: Environments and operations (16th ed.). Pearson.<br />\nHill, C. W., Hult, G. T., &#038; McKaig, T. (2021). Global business today (12th ed.). McGraw-Hill Education.<br />\nRugman, A. M., &#038; Collinson, S. (2019). International business (7th ed.). Pearson.<br />\nWild, J. J., &#038; Wild, K. L. (2020). International business: The challenges of globalization (9th ed.). Pearson.</p>\n<hr>\n<p> <em>Submitted by: Lanogwa</em></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Key Risk Categories in International Business Operations Introduction Venturing in international business is an exciting frontier, a landscape filled with promise, new customers, and incredible opportunities for growth. As more and more businesses look beyond their home turf, the allure of international expansion is undeniable. However, this journey is far from simple. Stepping into foreign [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 45,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-46",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/46",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=46"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/46/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 47,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/46/revisions/47"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/45"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=46"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=46"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=46"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "date": "2025-07-16T07:06:34",
+    "date_gmt": "2025-07-16T07:06:34",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=43"
+    },
+    "modified": "2025-07-16T07:06:34",
+    "modified_gmt": "2025-07-16T07:06:34",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=43",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-16T07:06:34.617Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-43",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/43",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=43"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/43/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=43"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=43"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=43"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "date": "2025-07-16T06:52:55",
+    "date_gmt": "2025-07-16T06:52:55",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=41"
+    },
+    "modified": "2025-07-16T06:52:55",
+    "modified_gmt": "2025-07-16T06:52:55",
+    "slug": "yooo",
+    "status": "publish",
+    "type": "post",
+    "link": "http://myblog-backend.local/yooo/",
+    "title": {
+      "rendered": "yooo"
+    },
+    "content": {
+      "rendered": "<p>wnsdmlqs mdm wsnm d  </p>\n<hr>\n<p> <em>Submitted by: cliff</em></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>wnsdmlqs mdm wsnm d Submitted by: cliff</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 40,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-41",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/41",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=41"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/41/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 42,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/41/revisions/42"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/40"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=41"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=41"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=41"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "date": "2025-07-16T06:49:39",
+    "date_gmt": "2025-07-16T06:49:39",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=38"
+    },
+    "modified": "2025-07-16T06:49:39",
+    "modified_gmt": "2025-07-16T06:49:39",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=38",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-16T06:49:39.672Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-38",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/38",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=38"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/38/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=38"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=38"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=38"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "date": "2025-07-16T06:33:54",
+    "date_gmt": "2025-07-16T06:33:54",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=36"
+    },
+    "modified": "2025-07-16T06:33:54",
+    "modified_gmt": "2025-07-16T06:33:54",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=36",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-16T06:33:54.613Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-36",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/36",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=36"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/36/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=36"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=36"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=36"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "date": "2025-07-16T06:33:26",
+    "date_gmt": "2025-07-16T06:33:26",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=34"
+    },
+    "modified": "2025-07-16T06:33:26",
+    "modified_gmt": "2025-07-16T06:33:26",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=34",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-16T06:33:26.855Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-34",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/34",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=34"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/34/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=34"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=34"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=34"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "date": "2025-07-15T21:32:27",
+    "date_gmt": "2025-07-15T21:32:27",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=33"
+    },
+    "modified": "2025-07-15T21:32:27",
+    "modified_gmt": "2025-07-15T21:32:27",
+    "slug": "",
+    "status": "draft",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=33",
+    "title": {
+      "rendered": "Exam"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-33",
+      "post",
+      "type-post",
+      "status-draft",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/33",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=33"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/33/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=33"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=33"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=33"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "date": "2025-07-15T21:11:23",
+    "date_gmt": "2025-07-15T21:11:23",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=21"
+    },
+    "modified": "2025-07-15T21:11:23",
+    "modified_gmt": "2025-07-15T21:11:23",
+    "slug": "test-post-from-react-2025-07-15t194958-362z",
+    "status": "publish",
+    "type": "post",
+    "link": "http://myblog-backend.local/test-post-from-react-2025-07-15t194958-362z/",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-15T19:49:58.362Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-21",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/21",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=21"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/21/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 32,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/21/revisions/32"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=21"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=21"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=21"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "date": "2025-07-15T20:39:49",
+    "date_gmt": "2025-07-15T20:39:49",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=25"
+    },
+    "modified": "2025-07-15T20:39:49",
+    "modified_gmt": "2025-07-15T20:39:49",
+    "slug": "test-post-from-react-2025-07-15t200109-707z",
+    "status": "publish",
+    "type": "post",
+    "link": "http://myblog-backend.local/test-post-from-react-2025-07-15t200109-707z/",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-15T20:01:09.707Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-25",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/25",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=25"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/25/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 31,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/25/revisions/31"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=25"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=25"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=25"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "date": "2025-07-15T20:03:02",
+    "date_gmt": "2025-07-15T20:03:02",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=27"
+    },
+    "modified": "2025-07-15T20:03:02",
+    "modified_gmt": "2025-07-15T20:03:02",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=27",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-15T20:03:02.052Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-27",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/27",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=27"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/27/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=27"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=27"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=27"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "date": "2025-07-15T19:56:19",
+    "date_gmt": "2025-07-15T19:56:19",
+    "guid": {
+      "rendered": "https://myblog-backend.local/?p=23"
+    },
+    "modified": "2025-07-15T19:56:19",
+    "modified_gmt": "2025-07-15T19:56:19",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=23",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-15T19:56:19.879Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-23",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/23",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=23"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/23/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=23"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=23"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=23"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "date": "2025-07-15T19:45:52",
+    "date_gmt": "2025-07-15T19:45:52",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=19"
+    },
+    "modified": "2025-07-15T19:45:52",
+    "modified_gmt": "2025-07-15T19:45:52",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=19",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-15T19:45:52.400Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-19",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/19",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=19"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/19/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=19"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=19"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=19"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "date": "2025-07-15T19:44:56",
+    "date_gmt": "2025-07-15T19:44:56",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=17"
+    },
+    "modified": "2025-07-15T19:44:56",
+    "modified_gmt": "2025-07-15T19:44:56",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=17",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-15T19:44:56.202Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-17",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/17",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=17"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/17/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=17"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=17"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=17"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "date": "2025-07-15T19:41:02",
+    "date_gmt": "2025-07-15T19:41:02",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=15"
+    },
+    "modified": "2025-07-15T19:41:02",
+    "modified_gmt": "2025-07-15T19:41:02",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=15",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-15T19:41:02.959Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-15",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/15",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=15"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/15/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=15"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=15"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=15"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "date": "2025-07-15T19:33:00",
+    "date_gmt": "2025-07-15T19:33:00",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=13"
+    },
+    "modified": "2025-07-15T19:33:00",
+    "modified_gmt": "2025-07-15T19:33:00",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=13",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-15T19:33:00.038Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-13",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/13",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=13"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/13/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=13"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=13"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=13"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "date": "2025-07-15T19:29:33",
+    "date_gmt": "2025-07-15T19:29:33",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=12"
+    },
+    "modified": "2025-07-15T19:29:33",
+    "modified_gmt": "2025-07-15T19:29:33",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=12",
+    "title": {
+      "rendered": "Test Post from React &#8211; 2025-07-15T19:29:33.251Z"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-12",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/12",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=12"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/12/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=12"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=12"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=12"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "date": "2025-07-15T19:21:36",
+    "date_gmt": "2025-07-15T19:21:36",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=11"
+    },
+    "modified": "2025-07-15T19:21:36",
+    "modified_gmt": "2025-07-15T19:21:36",
+    "slug": "",
+    "status": "pending",
+    "type": "post",
+    "link": "http://myblog-backend.local/?p=11",
+    "title": {
+      "rendered": "Test Post from React"
+    },
+    "content": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a test post created from the React frontend.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-11",
+      "post",
+      "type-post",
+      "status-pending",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/11",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=11"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/11/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=11"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=11"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=11"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "date": "2025-07-15T17:38:41",
+    "date_gmt": "2025-07-15T17:38:41",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=7"
+    },
+    "modified": "2025-07-15T19:07:24",
+    "modified_gmt": "2025-07-15T19:07:24",
+    "slug": "cliff",
+    "status": "publish",
+    "type": "post",
+    "link": "http://myblog-backend.local/cliff/",
+    "title": {
+      "rendered": "cliff"
+    },
+    "content": {
+      "rendered": "\n<p>doyle</p>\n\n\n\n<p></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>doyle</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-7",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/7",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=7"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/7/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 10,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/7/revisions/10"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=7"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=7"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=7"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "date": "2025-07-15T08:17:59",
+    "date_gmt": "2025-07-15T08:17:59",
+    "guid": {
+      "rendered": "http://myblog-backend.local/?p=1"
+    },
+    "modified": "2025-07-15T08:17:59",
+    "modified_gmt": "2025-07-15T08:17:59",
+    "slug": "hello-world",
+    "status": "publish",
+    "type": "post",
+    "link": "http://myblog-backend.local/hello-world/",
+    "title": {
+      "rendered": "Hello world!"
+    },
+    "content": {
+      "rendered": "\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-1",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/1",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/posts/1/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media?parent=1"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/categories?post=1"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/tags?post=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

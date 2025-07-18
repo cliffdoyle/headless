@@ -1,0 +1,1921 @@
+[
+  {
+    "id": 50,
+    "date": "2025-07-17T09:02:13",
+    "date_gmt": "2025-07-17T09:02:13",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47.png"
+    },
+    "modified": "2025-07-17T09:02:13",
+    "modified_gmt": "2025-07-17T09:02:13",
+    "slug": "featured-image-for-kkk",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/featured-image-for-kkk/",
+    "title": {
+      "rendered": "Featured image for kkk"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-50",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"169\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-300x169.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-300x169.png 300w, http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-1024x576.png 1024w, http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-768x432.png 768w, http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-1536x864.png 1536w, http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47.png 1920w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 1920,
+      "height": 1080,
+      "file": "2025/07/Screenshot-from-2025-07-16-23-44-47.png",
+      "filesize": 278967,
+      "sizes": {
+        "medium": {
+          "file": "Screenshot-from-2025-07-16-23-44-47-300x169.png",
+          "width": 300,
+          "height": 169,
+          "filesize": 14336,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-300x169.png"
+        },
+        "large": {
+          "file": "Screenshot-from-2025-07-16-23-44-47-1024x576.png",
+          "width": 1024,
+          "height": 576,
+          "filesize": 227881,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-1024x576.png"
+        },
+        "thumbnail": {
+          "file": "Screenshot-from-2025-07-16-23-44-47-150x150.png",
+          "width": 150,
+          "height": 150,
+          "filesize": 5540,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-150x150.png"
+        },
+        "medium_large": {
+          "file": "Screenshot-from-2025-07-16-23-44-47-768x432.png",
+          "width": 768,
+          "height": 432,
+          "filesize": 148383,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-768x432.png"
+        },
+        "1536x1536": {
+          "file": "Screenshot-from-2025-07-16-23-44-47-1536x864.png",
+          "width": 1536,
+          "height": 864,
+          "filesize": 392346,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47-1536x864.png"
+        },
+        "full": {
+          "file": "Screenshot-from-2025-07-16-23-44-47.png",
+          "width": 1920,
+          "height": 1080,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-07-16-23-44-47.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/50",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=50"
+        }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "date": "2025-07-16T09:08:35",
+    "date_gmt": "2025-07-16T09:08:35",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-12.png"
+    },
+    "modified": "2025-07-16T09:08:35",
+    "modified_gmt": "2025-07-16T09:08:35",
+    "slug": "test-image-upload-13",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-13/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-49",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-12.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-12.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-12.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-12.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/49",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=49"
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "date": "2025-07-16T07:08:46",
+    "date_gmt": "2025-07-16T07:08:46",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01.jpg"
+    },
+    "modified": "2025-07-16T07:08:46",
+    "modified_gmt": "2025-07-16T07:08:46",
+    "slug": "featured-image-for-business-risks",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/featured-image-for-business-risks/",
+    "title": {
+      "rendered": "Featured image for Business Risks"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-45",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-scaled.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"225\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-300x225.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-300x225.jpg 300w, http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-1024x768.jpg 1024w, http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-768x576.jpg 768w, http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-1536x1152.jpg 1536w, http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-2048x1536.jpg 2048w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 2560,
+      "height": 1920,
+      "file": "2025/07/Fiverr-01-scaled.jpg",
+      "filesize": 501624,
+      "sizes": {
+        "medium": {
+          "file": "Fiverr-01-300x225.jpg",
+          "width": 300,
+          "height": 225,
+          "filesize": 54649,
+          "mime_type": "image/jpeg",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-300x225.jpg"
+        },
+        "large": {
+          "file": "Fiverr-01-1024x768.jpg",
+          "width": 1024,
+          "height": 768,
+          "filesize": 120989,
+          "mime_type": "image/jpeg",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-1024x768.jpg"
+        },
+        "thumbnail": {
+          "file": "Fiverr-01-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "filesize": 47125,
+          "mime_type": "image/jpeg",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "Fiverr-01-768x576.jpg",
+          "width": 768,
+          "height": 576,
+          "filesize": 91671,
+          "mime_type": "image/jpeg",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-768x576.jpg"
+        },
+        "1536x1536": {
+          "file": "Fiverr-01-1536x1152.jpg",
+          "width": 1536,
+          "height": 1152,
+          "filesize": 205369,
+          "mime_type": "image/jpeg",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-1536x1152.jpg"
+        },
+        "2048x2048": {
+          "file": "Fiverr-01-2048x1536.jpg",
+          "width": 2048,
+          "height": 1536,
+          "filesize": 328681,
+          "mime_type": "image/jpeg",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-2048x1536.jpg"
+        },
+        "full": {
+          "file": "Fiverr-01-scaled.jpg",
+          "width": 2560,
+          "height": 1920,
+          "mime_type": "image/jpeg",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-scaled.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "2",
+        "credit": "",
+        "camera": "TECNO AB7",
+        "caption": "",
+        "created_timestamp": "1609690454",
+        "copyright": "",
+        "focal_length": "4.89",
+        "iso": "1363",
+        "shutter_speed": "0.05",
+        "title": "",
+        "orientation": "1",
+        "keywords": []
+      },
+      "original_image": "Fiverr-01.jpg"
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Fiverr-01-scaled.jpg",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/45",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=45"
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "date": "2025-07-16T07:06:34",
+    "date_gmt": "2025-07-16T07:06:34",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-11.png"
+    },
+    "modified": "2025-07-16T07:06:34",
+    "modified_gmt": "2025-07-16T07:06:34",
+    "slug": "test-image-upload-12",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-12/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-44",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-11.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-11.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-11.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-11.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/44",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=44"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "date": "2025-07-16T06:50:14",
+    "date_gmt": "2025-07-16T06:50:14",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45.png"
+    },
+    "modified": "2025-07-16T06:50:14",
+    "modified_gmt": "2025-07-16T06:50:14",
+    "slug": "featured-image-for-yooo",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/featured-image-for-yooo/",
+    "title": {
+      "rendered": "Featured image for yooo"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-40",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"165\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-300x165.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-300x165.png 300w, http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-1024x562.png 1024w, http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-768x422.png 768w, http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-1536x844.png 1536w, http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45.png 1868w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 1868,
+      "height": 1026,
+      "file": "2025/07/Screenshot-from-2025-06-18-18-29-45.png",
+      "filesize": 79415,
+      "sizes": {
+        "medium": {
+          "file": "Screenshot-from-2025-06-18-18-29-45-300x165.png",
+          "width": 300,
+          "height": 165,
+          "filesize": 5065,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-300x165.png"
+        },
+        "large": {
+          "file": "Screenshot-from-2025-06-18-18-29-45-1024x562.png",
+          "width": 1024,
+          "height": 562,
+          "filesize": 61670,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-1024x562.png"
+        },
+        "thumbnail": {
+          "file": "Screenshot-from-2025-06-18-18-29-45-150x150.png",
+          "width": 150,
+          "height": 150,
+          "filesize": 1721,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-150x150.png"
+        },
+        "medium_large": {
+          "file": "Screenshot-from-2025-06-18-18-29-45-768x422.png",
+          "width": 768,
+          "height": 422,
+          "filesize": 17133,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-768x422.png"
+        },
+        "1536x1536": {
+          "file": "Screenshot-from-2025-06-18-18-29-45-1536x844.png",
+          "width": 1536,
+          "height": 844,
+          "filesize": 129593,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45-1536x844.png"
+        },
+        "full": {
+          "file": "Screenshot-from-2025-06-18-18-29-45.png",
+          "width": 1868,
+          "height": 1026,
+          "mime_type": "image/png",
+          "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/Screenshot-from-2025-06-18-18-29-45.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/40",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=40"
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "date": "2025-07-16T06:49:39",
+    "date_gmt": "2025-07-16T06:49:39",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-10.png"
+    },
+    "modified": "2025-07-16T06:49:39",
+    "modified_gmt": "2025-07-16T06:49:39",
+    "slug": "test-image-upload-11",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-11/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-39",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-10.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-10.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-10.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-10.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/39",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=39"
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "date": "2025-07-16T06:33:54",
+    "date_gmt": "2025-07-16T06:33:54",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-9.png"
+    },
+    "modified": "2025-07-16T06:33:54",
+    "modified_gmt": "2025-07-16T06:33:54",
+    "slug": "test-image-upload-10",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-10/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-37",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-9.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-9.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-9.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-9.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/37",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=37"
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "date": "2025-07-16T06:33:27",
+    "date_gmt": "2025-07-16T06:33:27",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-8.png"
+    },
+    "modified": "2025-07-16T06:33:27",
+    "modified_gmt": "2025-07-16T06:33:27",
+    "slug": "test-image-upload-9",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-9/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-35",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-8.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-8.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-8.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-8.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/35",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=35"
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "date": "2025-07-15T20:30:44",
+    "date_gmt": "2025-07-15T20:30:44",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-upload-1.txt"
+    },
+    "modified": "2025-07-15T20:30:44",
+    "modified_gmt": "2025-07-15T20:30:44",
+    "slug": "test-upload-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-upload-2/",
+    "title": {
+      "rendered": "test-upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-30",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-upload-1.txt'>test-upload</a></p>\n"
+    },
+    "caption": {
+      "rendered": "<p>test-upload</p>\n"
+    },
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "text/plain",
+    "media_details": {
+      "filesize": 84,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-upload-1.txt",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/30",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=30"
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "date": "2025-07-15T20:30:01",
+    "date_gmt": "2025-07-15T20:30:01",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-upload.txt"
+    },
+    "modified": "2025-07-15T20:30:01",
+    "modified_gmt": "2025-07-15T20:30:01",
+    "slug": "test-upload",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-upload/",
+    "title": {
+      "rendered": "Test Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-29",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-upload.txt'>Test Upload</a></p>\n"
+    },
+    "caption": {
+      "rendered": "<p>Test Upload</p>\n"
+    },
+    "alt_text": "Test file upload",
+    "media_type": "file",
+    "mime_type": "text/plain",
+    "media_details": {
+      "filesize": 84,
+      "sizes": {}
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-upload.txt",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/29",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=29"
+        }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "date": "2025-07-15T20:03:02",
+    "date_gmt": "2025-07-15T20:03:02",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-7.png"
+    },
+    "modified": "2025-07-15T20:03:02",
+    "modified_gmt": "2025-07-15T20:03:02",
+    "slug": "test-image-upload-8",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-8/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-28",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-7.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-7.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-7.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-7.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/28",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=28"
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "date": "2025-07-15T20:01:09",
+    "date_gmt": "2025-07-15T20:01:09",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-6.png"
+    },
+    "modified": "2025-07-15T20:01:09",
+    "modified_gmt": "2025-07-15T20:01:09",
+    "slug": "test-image-upload-7",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-7/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-26",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-6.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-6.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-6.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-6.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/26",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=26"
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "date": "2025-07-15T19:56:20",
+    "date_gmt": "2025-07-15T19:56:20",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-5.png"
+    },
+    "modified": "2025-07-15T19:56:20",
+    "modified_gmt": "2025-07-15T19:56:20",
+    "slug": "test-image-upload-6",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-6/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-24",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-5.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-5.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-5.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-5.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/24",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=24"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "date": "2025-07-15T19:49:58",
+    "date_gmt": "2025-07-15T19:49:58",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-4.png"
+    },
+    "modified": "2025-07-15T19:49:58",
+    "modified_gmt": "2025-07-15T19:49:58",
+    "slug": "test-image-upload-5",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-5/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-22",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-4.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-4.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-4.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-4.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/22",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=22"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "date": "2025-07-15T19:45:52",
+    "date_gmt": "2025-07-15T19:45:52",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-3.png"
+    },
+    "modified": "2025-07-15T19:45:52",
+    "modified_gmt": "2025-07-15T19:45:52",
+    "slug": "test-image-upload-4",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-4/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-20",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-3.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-3.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-3.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-3.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/20",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=20"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "date": "2025-07-15T19:44:56",
+    "date_gmt": "2025-07-15T19:44:56",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-2.png"
+    },
+    "modified": "2025-07-15T19:44:56",
+    "modified_gmt": "2025-07-15T19:44:56",
+    "slug": "test-image-upload-3",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-3/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-18",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-2.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-2.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-2.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-2.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/18",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=18"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "date": "2025-07-15T19:41:03",
+    "date_gmt": "2025-07-15T19:41:03",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-1.png"
+    },
+    "modified": "2025-07-15T19:41:03",
+    "modified_gmt": "2025-07-15T19:41:03",
+    "slug": "test-image-upload-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload-2/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-16",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image-1.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image-1.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image-1.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image-1.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/16",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=16"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "date": "2025-07-15T19:33:00",
+    "date_gmt": "2025-07-15T19:33:00",
+    "guid": {
+      "rendered": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image.png"
+    },
+    "modified": "2025-07-15T19:33:00",
+    "modified_gmt": "2025-07-15T19:33:00",
+    "slug": "test-image-upload",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "http://myblog-backend.local/test-image-upload/",
+    "title": {
+      "rendered": "Test Image Upload"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "class_list": [
+      "post-14",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='http://myblog-backend.local/wp-content/uploads/2025/07/test-image.png'><img loading=\"lazy\" decoding=\"async\" width=\"100\" height=\"100\" src=\"http://myblog-backend.local/wp-content/uploads/2025/07/test-image.png\" class=\"attachment-medium size-medium\" alt=\"Test image for API testing\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": "<p>Test image created by React app</p>\n"
+    },
+    "alt_text": "Test image for API testing",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 100,
+      "height": 100,
+      "file": "2025/07/test-image.png",
+      "filesize": 433,
+      "sizes": {},
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "http://myblog-backend.local/wp-content/uploads/2025/07/test-image.png",
+    "_links": {
+      "self": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media/14",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://myblog-backend.local/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://myblog-backend.local/wp-json/wp/v2/comments?post=14"
+        }
+      ]
+    }
+  }
+]
