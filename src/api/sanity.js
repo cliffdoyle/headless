@@ -205,6 +205,114 @@ export const createPost = async (postData) => {
   }
 };
 
+// Fetch posts by status for admin review
+export const getPostsByStatus = async (status = 'pending') => {
+  try {
+    console.log(`Fetching ${status} posts for admin review...`);
+
+    const query = `*[_type == "post" && status == $status] | order(submittedAt desc) {
+      _id,
+      title,
+      slug,
+      excerpt,
+      content,
+      status,
+      submittedBy,
+      submittedAt,
+      publishedAt,
+      author->{
+        _id,
+        name,
+        bio,
+        image
+      },
+      mainImage
+    }`;
+
+    const posts = await client.fetch(query, { status });
+    console.log(`Successfully fetched ${posts.length} ${status} posts`);
+    return posts || [];
+  } catch (error) {
+    console.error(`Error fetching ${status} posts:`, error);
+    return [];
+  }
+};
+
+// Update post status (for publishing/rejecting)
+export const updatePostStatus = async (postId, newStatus, authorId = null) => {
+  try {
+    console.log(`Updating post ${postId} status to ${newStatus}...`);
+
+    if (!token) {
+      throw new Error('Sanity write token not configured');
+    }
+
+    const updateData = {
+      status: newStatus
+    };
+
+    // If publishing, set published date and assign author
+    if (newStatus === 'published') {
+      updateData.publishedAt = new Date().toISOString();
+
+      // If authorId provided, assign it
+      if (authorId) {
+        updateData.author = {
+          _type: 'reference',
+          _ref: authorId
+        };
+      }
+    }
+
+    const result = await client.patch(postId).set(updateData).commit();
+    console.log(`Post status updated successfully to ${newStatus}`);
+    return result;
+  } catch (error) {
+    console.error('Error updating post status:', error);
+    throw new Error(`Failed to update post status: ${error.message}`);
+  }
+};
+
+// Bulk update post statuses
+export const bulkUpdatePostStatus = async (postIds, newStatus, authorId = null) => {
+  try {
+    console.log(`Bulk updating ${postIds.length} posts to ${newStatus}...`);
+
+    if (!token) {
+      throw new Error('Sanity write token not configured');
+    }
+
+    const updatePromises = postIds.map(postId =>
+      updatePostStatus(postId, newStatus, authorId)
+    );
+
+    const results = await Promise.all(updatePromises);
+    console.log(`Successfully bulk updated ${results.length} posts`);
+    return results;
+  } catch (error) {
+    console.error('Error bulk updating posts:', error);
+    throw new Error(`Failed to bulk update posts: ${error.message}`);
+  }
+};
+
+// Delete a post
+export const deletePost = async (postId) => {
+  try {
+    console.log(`Deleting post ${postId}...`);
+
+    if (!token) {
+      throw new Error('Sanity write token not configured');
+    }
+
+    const result = await client.delete(postId);
+    console.log('Post deleted successfully');
+    return result;
+  } catch (error) {
+    console.error('Error deleting post:', error);
+    throw new Error(`Failed to delete post: ${error.message}`);
+  }
+};
+
 // Test Sanity API connectivity
 export const testSanityAPI = async () => {
   try {

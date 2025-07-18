@@ -53,12 +53,14 @@ export default {
       type: 'string',
       options: {
         list: [
-          {title: 'Draft', value: 'draft'},
-          {title: 'Pending Review', value: 'pending'},
-          {title: 'Published', value: 'published'}
+          {title: '📝 Draft', value: 'draft'},
+          {title: '🔍 Pending Review', value: 'pending'},
+          {title: '✅ Published', value: 'published'},
+          {title: '❌ Rejected', value: 'rejected'}
         ]
       },
-      initialValue: 'draft'
+      initialValue: 'draft',
+      description: 'Current status of the post in the review workflow'
     },
     {
       name: 'author',
@@ -76,6 +78,37 @@ export default {
       name: 'submittedAt',
       title: 'Submitted At',
       type: 'datetime'
+    },
+    {
+      name: 'reviewNotes',
+      title: 'Review Notes',
+      type: 'text',
+      rows: 3,
+      description: 'Internal notes for the review process (not visible to public)'
+    },
+    {
+      name: 'category',
+      title: 'Category',
+      type: 'string',
+      options: {
+        list: [
+          {title: '🌱 Lifestyle', value: 'lifestyle'},
+          {title: '💪 Health', value: 'health'},
+          {title: '💰 Finance', value: 'finance'},
+          {title: '🚀 Technology', value: 'technology'}
+        ]
+      },
+      description: 'Main category for this post'
+    },
+    {
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
+      of: [{type: 'string'}],
+      options: {
+        layout: 'tags'
+      },
+      description: 'Tags for better organization and searchability'
     }
   ],
   preview: {
@@ -83,12 +116,38 @@ export default {
       title: 'title',
       author: 'author.name',
       media: 'mainImage',
-      status: 'status'
+      status: 'status',
+      category: 'category',
+      submittedBy: 'submittedBy',
+      submittedAt: 'submittedAt'
     },
     prepare(selection) {
-      const {author, status} = selection
+      const {author, status, category, submittedBy, submittedAt} = selection
+
+      // Status icons
+      const statusIcons = {
+        draft: '📝',
+        pending: '🔍',
+        published: '✅',
+        rejected: '❌'
+      }
+
+      // Category icons
+      const categoryIcons = {
+        lifestyle: '🌱',
+        health: '💪',
+        finance: '💰',
+        technology: '🚀'
+      }
+
+      const statusIcon = statusIcons[status] || '📄'
+      const categoryIcon = category ? categoryIcons[category] : ''
+      const categoryText = category ? ` • ${categoryIcon} ${category}` : ''
+      const authorText = author ? ` by ${author}` : (submittedBy ? ` by ${submittedBy}` : '')
+      const dateText = submittedAt ? ` • ${new Date(submittedAt).toLocaleDateString()}` : ''
+
       return Object.assign({}, selection, {
-        subtitle: `${status} ${author ? `by ${author}` : ''}`
+        subtitle: `${statusIcon} ${status}${authorText}${categoryText}${dateText}`
       })
     }
   }

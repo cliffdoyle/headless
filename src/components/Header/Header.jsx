@@ -5,7 +5,7 @@ const Header = () => (
   <header className={styles.header}>
     <div className={`${styles.headerContent} container`}>
       <Link to="/" className={styles.logo}>
-        Phil - Insights
+        Lanfintech
       </Link>
       <nav className={styles.nav}>
         <NavLink

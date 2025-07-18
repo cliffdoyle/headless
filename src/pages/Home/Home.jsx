@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { getPublishedPosts, getAdminData, testSanityAPI } from '../../api/sanity';
 import BlogCard from '../../components/BlogCard/BlogCard';
-import AdminInfo from '../../components/AdminInfo/AdminInfo';
+import AuthorCard from '../../components/AuthorCard/AuthorCard';
 import Loader from '../../components/Loader/Loader';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import styles from './Home.module.css';
@@ -142,7 +142,7 @@ const Home = () => {
           </main>
 
           <aside className={styles.sidebar}>
-            {adminData && <AdminInfo admin={adminData} />}
+            {adminData && <AuthorCard author={adminData} showFullBio={true} />}
           </aside>
         </div>
       </div>

@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import parse from 'html-react-parser';
 import { getPostBySlug, urlFor } from '../../api/sanity';
 import Loader from '../../components/Loader/Loader';
+import AuthorCard from '../../components/AuthorCard/AuthorCard';
 import styles from './PostDetail.module.css';
 
 const FALLBACK_IMAGE = 'https://via.placeholder.com/1200x500/f2f2f7/3a3a3c?text=ModernBlog';
@@ -56,7 +57,7 @@ const PostDetail = () => {
   return (
     <>
       {/* React 19 native SEO tags */}
-      <title>{`${postTitle} - Philimore Insights`}</title>
+      <title>{`${postTitle} - Lanfintech`}</title>
       <meta name="description" content={metaDescription} />
 
       <article className={styles.post}>
@@ -70,6 +71,9 @@ const PostDetail = () => {
         <div className={styles.postContent}>
           {parse(post.content)}
         </div>
+
+        {/* Author Card Section */}
+        <AuthorCard author={post.author} showFullBio={true} />
       </article>
     </>
   );
